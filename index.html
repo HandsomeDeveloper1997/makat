@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Restaurant Makato</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./photos/logo.jfif">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Nav Section-->
+    <nav id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#about" onclick="closeNav()">ჩვენს შესახებ</a>
+          <a href="#menu" onclick="closeNav()">მენიუ</a>
+          <a href="#contact" onclick="closeNav()">კონტაქტი</a>
+          <a href="#gallery" onclick="closeNav()">გალერეა</a>
+        </div>
+    </nav>
+    <!--Nav Section-->
+
+
+    <!--First Section-->
+
+    <section class="first--section">
+        <div class="full--photo">
+
+        </div>
+
+        <div class="pos--div">
+
+            <div>
+                <img src="./photos/logo.jfif" class="header--photo  ">
+            </div>
+    
+            <span class="burger--icon" style="font-size:35px;cursor:pointer;color:white;font-weight: bold;" onclick="openNav()">
+                <i class="fa-solid fa-bars" style="font-size: 3rem;"></i>
+            </span>
+    
+        </div>  
+
+    </section>
+
+    <!--First Section-->
+
+
+
+    <!--Second Section-->
+
+    <section class="about--makato" id="about"> 
+        <div class="work--div">
+            <h1 class="about--h2" style="font-size: 40px;">Restaurant Makato</h1>
+            </br>
+            </br>
+            <p style="opacity: 0.7;">მდებარეობა: სტეფანწმინდა,ყაზბეგი</p>
+            </br>
+            <a class="about--a" href="tel:+995596874488">ტელეფონი : 
+                596 87 44 88</a>
+            </br>
+            </br>
+            <p style="opacity: 0.7;">ღიაა  ყოველდღე 11:00 - 23:00</p>
+        </div>
+
+        <div class="desc--div">
+            <ul>
+                <li>ყაზბეგში,გერგეტის სამების ასასვლელთან,
+                რესტორან “მაკატოს “აღმოაჩენთ.
+                სადაც დაგხვდებათ თანამედროვე  და მყუდრო გარემო
+                აქ შეძლებთ დააგემოვნოთ ქართული და ევროპული სამზარეულოს უგემრიელესი კერძები.
+                “მაკატოში” მოსულ სტუმარს  გელოდებათ გულთბილი მასპინძლები  და საოცარი ხედები.
+                </li>
+
+                <li>
+                    სწორედ ჩვენი მეგობრული გუნდი ქმნის, იმ ატმოსფეროს და გარემოს,რომელიც
+                    მაკატოში მოსულ სტუმარს ხვდება.
+                </li>
+            </ul>
+              
+        </div>
+    </section>
+
+    <!--Second Section-->
+
+
+
+
+    <!--Third Section-->
+
+    <section class="menu" id="menu">
+        <h2>Menu</h2>
+
+        <div class="button--divs">
+            <button id="mainmenu">მთავარი</button>
+            <button id="drinks" style="margin-left: 20px;">სასმელები</button>
+        </div>
+
+        <div class="menu--div">
+            <img src="./photos/photo10.jpg" class="menu--photo">
+        </div>
+
+    </section>
+
+    <!--Third Section-->
+
+
+    <!--Four Section-->
+
+    <h2 style="text-align: center;margin-bottom: 10px;font-size: 32px;">Contact Us</h2>
+    <section class="form-container" id="contact">
+        <div class="form--first--div">
+            <h3 style="padding: 10px;">დაჯავშნე ვიზიტი</h3>
+            <form action="https://formsubmit.co/aa93600448433c07baa0dea55b2c4589" method="POST" class="form--div">
+                <label for="firstname">სახელი:</label>
+                <input type="text" id="firstname" name="firstname" required>
+    
+                <label for="lastname">გვარი:</label>
+                <input type="text" id="lastname" name="lastname" required>
+    
+                <label for="telephone">მობილური:</label>
+                <input type="tel" id="telephone" name="telephone" required>
+    
+                <label for="email">მეილი:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="num">რაოდენობა:</label>
+                <input type="number" id="num" name="num" required min="1">
+    
+                <button type="submit" class="formbutton" style="font-weight: 500;">გაგზავნა</button>
+            </form>
+        </div>
+
+        <div class="form--photo">
+            <img src="./photos/photo11.jpg" class="form--pic">
+        </div>
+
+    </section>
+
+    <!--Four Section-->
+
+    <!--Five Section-->
+
+    <section class="gallery" id="gallery">
+        <h2 style="text-align: center;font-size: 32px;margin:20px 0;">Gallery</h2>
+        
+        <div class="gallery-flex">
+            <div class="gallery--container">
+                <img src="./photos/photo15.jpg" class="gallery-photo">
+            </div>
+
+            <div class="gallery--container">
+                <img src="./photos/photo16.jpg" class="gallery-photo">
+            </div>
+
+            <div class="gallery--container">
+                <img src="./photos/photo21.jpg" class="gallery-photo">
+            </div>
+
+            <div class="gallery--container">
+                <img src="./photos/photo4.jpg" class="gallery-photo">
+            </div>
+
+            <div class="gallery--container">
+                <img src="./photos/photo5.jpg" class="gallery-photo">
+            </div>
+
+            <div class="gallery--container">
+                <img src="./photos/photo6.jpg" class="gallery-photo">
+            </div>
+
+            <div class="gallery--container">
+                <img src="./photos/photo7.jpg" class="gallery-photo">
+            </div>
+
+            <div class="gallery--container">
+                <img src="./photos/photo9.jpg" class="gallery-photo">
+            </div>
+
+            <div class="gallery--container">
+                <img src="./photos/photo12.jpg" class="gallery-photo">
+            </div>
+            
+            <div class="gallery--container">
+                <img src="./photos/photo1.jpg" class="gallery-photo">
+            </div>
+
+            
+            <div class="gallery--container">
+                <img src="./photos/photo2.jpg" class="gallery-photo">
+            </div>
+
+            
+            <div class="gallery--container">
+                <img src="./photos/photo17.jpg" class="gallery-photo">
+            </div>
+            
+            <div class="gallery--container">
+                <img src="./photos/photo19.jpg" class="gallery-photo">
+            </div>
+
+            
+            <div class="gallery--container">
+                <img src="./photos/photo3.jpg" class="gallery-photo">
+            </div>
+
+            
+            <div class="gallery--container">
+                <img src="./photos/photo22.jpg" class="gallery-photo">
+            </div>
+
+            
+            <div class="gallery--container">
+                <img src="./photos/photo23.jpg" class="gallery-photo">
+            </div>
+
+            
+            <div class="gallery--container">
+                <img src="./photos/photo24.jpg" class="gallery-photo">
+            </div>
+
+            
+            <div class="gallery--container">
+                <img src="./photos/photo25.jpg" class="gallery-photo">
+            </div>
+        </div>
+
+    </section>
+
+    <!--Five Section-->
+
+
+
+    <!--Footer-->
+
+    <footer class="makato--footer">
+        <div>
+            <img src="./photos/logo.jfif" class="footer--photo">
+        </div>
+
+        <div class="icons--div">
+            <a href="tel:+995596874488"     >
+                <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61562069994826">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            
+        </div>
+
+        <div class="footer--p">
+            <p style="font-size: 1.5rem;">Makato Restaurant</p>
+            <p>All Rights Reserved 2024</p>
+        </div>
+
+    </footer>
+
+
+    <!--Footer Section-->
+
+
+<script src="https://kit.fontawesome.com/3b4ebc2e27.js" crossorigin="anonymous"></script>
+<script src="./index.js"></script>    
+</body>
+</html>
